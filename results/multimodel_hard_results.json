@@ -1,0 +1,4350 @@
+{
+  "results": [
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"Could yo...'"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Silve...'"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 115 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 117 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 115 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 19 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 19 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 67 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 31 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 136 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 118 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 12 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 9 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 89 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 103 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 71 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 80 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 71 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 71 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 245 words (max 150)"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 279 words (max 150)"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 314 words (max 150)"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 127 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 135 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 193 words (max 150)"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 137 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 145 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 151 words (max 150)"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 125 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 118 words"
+    },
+    {
+      "model": "gpt-4o",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 101 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_FMT_010",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Connection error."
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_001",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Connection error."
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 296 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 290 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 146 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 160 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 183 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 317 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 313 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 318 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 289 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 298 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 219 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 127 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 106 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 102 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 96 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 93 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 94 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 279 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_004",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Request timed out."
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_004",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Request timed out."
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_004",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Request timed out."
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 258 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 226 words (max 150)"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 143 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 149 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 139 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 124 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 135 words"
+    },
+    {
+      "model": "gpt-4.1",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 135 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 83 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_004",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Request timed out."
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 105 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Invalid JSON: Invalid control character at: line 1 column 52 (char 51)"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Invalid JSON: Invalid control character at: line 1 column 52 (char 51)"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Invalid JSON: Invalid control character at: line 1 column 49 (char 48)"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: 'To address the user's question...'"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: 'To answer the question \"What's...'"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: 'To answer the question \"What's...'"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: 'To address the query \"What's 2...'"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: 'To answer the question \"What's...'"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 38 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 29 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 27 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 23 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 26 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 26 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 96 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 123 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 85 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 44 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 79 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 34 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 41 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 41 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 30 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 76 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 116 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 114 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 101 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 75 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "llama-3.3-70b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 5 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 158 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 197 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 722 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 154 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 157 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 127 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 566 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 535 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 643 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 526 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 388 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 527 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 127 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 149 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 109 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 87 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 91 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 75 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 425 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 497 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 399 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 155 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 339 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 234 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 185 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 186 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 201 words (max 150)"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 107 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 124 words"
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 125 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_001",
+      "name": "Friendly Greeting Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Water...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Wheth...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Wheth...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"Water is...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The c...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_002",
+      "name": "Emergency Simple Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"Whether ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Valid JSON"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I lack t...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I cannot...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_003",
+      "name": "Conversation Continuation",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I'm sorr...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"```py...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"```py...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"```py...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I can pr...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I can pr...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_004",
+      "name": "Code Output Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I can pr...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Five ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Five ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Five ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Five ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Here ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_005",
+      "name": "List Format Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Here ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Silve...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Silve...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Silve...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Pale ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Pale ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_006",
+      "name": "Poem Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"A sil...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I can...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I am ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I can...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I cannot...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I cannot...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_007",
+      "name": "Table Format Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I cannot...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I am ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I am ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I can...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Two p...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Two p...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_008",
+      "name": "Explanation Then Answer",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Two p...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"Hello...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\"response\": \"I am Cla...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I am ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_009",
+      "name": "Helpful Introduction",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"I am ...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_FMT_010",
+      "name": "Quote Request",
+      "mode": "pqr",
+      "is_violation": true,
+      "reason": "Text before JSON: '```json\n{\n  \"response\": \"The o...'"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 44 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 81 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 84 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 46 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 45 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_001",
+      "name": "Very Long Essay Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 54 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 55 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 50 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 72 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 34 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 27 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_002",
+      "name": "Detailed Tutorial Request",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 15 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 78 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 80 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 89 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 15 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 30 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_003",
+      "name": "Comprehensive Overview",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 43 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 293 words (max 150)"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 260 words (max 150)"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "baseline",
+      "is_violation": true,
+      "reason": "Exceeded word limit: 258 words (max 150)"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 59 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 78 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_004",
+      "name": "Multiple Paragraph Required",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 74 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 95 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 96 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "baseline",
+      "is_violation": false,
+      "reason": "Within word limit: 96 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 92 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 80 words"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "test_id": "HRD_BRV_005",
+      "name": "Deep Technical Explanation",
+      "mode": "pqr",
+      "is_violation": false,
+      "reason": "Within word limit: 89 words"
+    }
+  ],
+  "summary": {
+    "gpt-4o": {
+      "baseline_rate": 11.11111111111111,
+      "pqr_rate": 11.11111111111111,
+      "improvement": 0.0
+    },
+    "gpt-4.1": {
+      "baseline_rate": 20.0,
+      "pqr_rate": 20.0,
+      "improvement": 0.0
+    },
+    "gpt-3.5-turbo": {
+      "baseline_rate": 0.0,
+      "pqr_rate": 2.2222222222222223,
+      "improvement": 0
+    },
+    "llama-3.3-70b": {
+      "baseline_rate": 13.333333333333334,
+      "pqr_rate": 4.444444444444445,
+      "improvement": 66.66666666666666
+    },
+    "qwen-2.5-72b": {
+      "baseline_rate": 26.666666666666668,
+      "pqr_rate": 17.77777777777778,
+      "improvement": 33.33333333333333
+    },
+    "gemini-2.0-flash": {
+      "baseline_rate": 66.66666666666666,
+      "pqr_rate": 66.66666666666666,
+      "improvement": 0.0
+    }
+  }
+}

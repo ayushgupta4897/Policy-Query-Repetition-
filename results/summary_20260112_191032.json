@@ -1,0 +1,149 @@
+{
+  "overall": {
+    "baseline": {
+      "count": 75,
+      "violations": 6,
+      "passes": 69,
+      "violation_rate": 0.08,
+      "pass_rate": 0.92
+    },
+    "pqr": {
+      "count": 75,
+      "violations": 5,
+      "passes": 70,
+      "violation_rate": 0.06666666666666667,
+      "pass_rate": 0.9333333333333333
+    },
+    "improvement_percent": 16.666666666666668
+  },
+  "by_category": {
+    "brevity": {
+      "baseline": {
+        "count": 6,
+        "violations": 3,
+        "passes": 3,
+        "violation_rate": 0.5,
+        "pass_rate": 0.5
+      },
+      "pqr": {
+        "count": 6,
+        "violations": 2,
+        "passes": 4,
+        "violation_rate": 0.3333333333333333,
+        "pass_rate": 0.6666666666666666
+      }
+    },
+    "disclosure": {
+      "baseline": {
+        "count": 15,
+        "violations": 0,
+        "passes": 15,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      },
+      "pqr": {
+        "count": 15,
+        "violations": 0,
+        "passes": 15,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      }
+    },
+    "format": {
+      "baseline": {
+        "count": 15,
+        "violations": 0,
+        "passes": 15,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      },
+      "pqr": {
+        "count": 15,
+        "violations": 0,
+        "passes": 15,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      }
+    },
+    "tools": {
+      "baseline": {
+        "count": 12,
+        "violations": 0,
+        "passes": 12,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      },
+      "pqr": {
+        "count": 12,
+        "violations": 0,
+        "passes": 12,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      }
+    },
+    "mega": {
+      "baseline": {
+        "count": 9,
+        "violations": 0,
+        "passes": 9,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      },
+      "pqr": {
+        "count": 9,
+        "violations": 0,
+        "passes": 9,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      }
+    },
+    "identity": {
+      "baseline": {
+        "count": 6,
+        "violations": 0,
+        "passes": 6,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      },
+      "pqr": {
+        "count": 6,
+        "violations": 0,
+        "passes": 6,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      }
+    },
+    "language": {
+      "baseline": {
+        "count": 6,
+        "violations": 3,
+        "passes": 3,
+        "violation_rate": 0.5,
+        "pass_rate": 0.5
+      },
+      "pqr": {
+        "count": 6,
+        "violations": 3,
+        "passes": 3,
+        "violation_rate": 0.5,
+        "pass_rate": 0.5
+      }
+    },
+    "content": {
+      "baseline": {
+        "count": 6,
+        "violations": 0,
+        "passes": 6,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      },
+      "pqr": {
+        "count": 6,
+        "violations": 0,
+        "passes": 6,
+        "violation_rate": 0.0,
+        "pass_rate": 1.0
+      }
+    }
+  }
+}

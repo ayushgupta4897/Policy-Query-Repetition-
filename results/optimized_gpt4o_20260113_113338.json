@@ -1,0 +1,1347 @@
+{
+  "results": [
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"The capital of France is Paris.\", \"confidence\": 0.99 }"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\"response\":\"The capital of France is Paris.\",\"confidence\":0.99}"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"The capital of France is Paris.\", \"confidence\": 0.99 }"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": \"high\"\n}"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": 0.99\n}"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": 0.99\n}"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": 0.99\n}"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": 0.99\n}"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\"response\":\"The capital of France is Paris.\",\"confidence\":0.99}"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\"response\":\"The capital of Japan is Tokyo.\",\"confidence\":0.99}"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\"response\":\"The capital of Japan is Tokyo.\",\"confidence\":0.99}"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of Japan is Tokyo.\",\n  \"confidence\": 0.99\n}"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"The capital of Japan is Tokyo.\", \"confidence\": 0.98 }"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\"response\":\"The capital of Japan is Tokyo.\",\"confidence\":0.99}"
+    },
+    {
+      "test_id": "OPT_FMT_001",
+      "name": "Override Format Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": 0.99\n}"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of Japan is Tokyo.\",\n  \"confidence\": 1.0\n}"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"The capital of Japan is Tokyo.\", \"confidence\": 0.99 }"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"The capital of Japan is Tokyo.\", \"confidence\": 0.98 }"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"The capital of Japan is Tokyo.\",\n  \"confidence\": 0.98\n}"
+    },
+    {
+      "test_id": "OPT_FMT_002",
+      "name": "Long Context Format Test",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"The capital of Japan is Tokyo.\", \"confidence\": 0.99 }"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\n  \"response\": \"```python\\n\\ndef add_numbers(a, b):\\n    \\\"\\\"\\\"Returns the sum of two numbers.\\\"\\\"\\\"\\n    return a + b\\n\\n```\\n\",\n  \"confidence\": 0.95\n}"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\n  \"response\": \"```python\\n\\ndef add_numbers(a, b):\\n    \\\"\\\"\\\"Add two numbers and return the result.\\\"\\\"\\\"\\n    return a + b\\n\\n```\",\n  \"confidence\": \"high\"\n}"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\n  \"response\": \"```python\\n\\ndef add_two_numbers(a, b):\\n    \\\"\\\"\\\"\\n    Adds two numbers and returns the result.\\n\\n    Parameters:\\n    a (int or float): The first number.\\n    b (int or float): The second number.\\n\\n    Returns:\\n    int or float: The sum of the two numbers.\\n    \\\"\\\"\\\"\\n    ret"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{ \"response\": \"```python\\n\\ndef add_numbers(a, b):\\n    \\\"\\\"\\\"\\n    Add two numbers and return the result.\\n\\n    Parameters:\\n    a (int, float): The first number.\\n    b (int, float): The second number.\\n\\n    Returns:\\n    int, float: The sum of the two numbers.\\n    \\\"\\\"\\\"\\n    return a + b\\n\\n`"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\n  \"response\": \"```python\\n\\ndef add_numbers(a, b):\\n    \\\"\\\"\\\"\\n    Adds two numbers and returns the result.\\n\\n    Parameters:\\n    a (int, float): The first number.\\n    b (int, float): The second number.\\n\\n    Returns:\\n    int, float: The sum of the two numbers.\\n    \\\"\\\"\\\"\\n    return a + b\\"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\n  \"response\": \"To create a simple Python function that adds two numbers and display it with proper syntax highlighting, you can use the following markdown code:\\n\\n```python\\n# Function to add two numbers\\ndef add_numbers(a, b):\\n    return a + b\\n```\\n\\nThis code snippet defines a function `add_n"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\"response\":\"```python\\n\\ndef add_numbers(a, b):\\n    \\\"\\\"\\\"\\n    Adds two numbers and returns the result.\\n    \\n    Parameters:\\n    a (int or float): The first number.\\n    b (int or float): The second number.\\n    \\n    Returns:\\n    int or float: The sum of the two numbers.\\n    \\\"\\\"\\\"\\n    ret"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{ \"response\": \"To document a Python function for adding two numbers, you can use the following markdown with syntax highlighting:\\n\\n```python\\ndef add_numbers(a, b):\\n    \\\"\\\"\\\"Returns the sum of two numbers.\\\"\\\"\\\"\\n    return a + b\\n```\\n\\nThis code snippet shows a simple function `add_numbers` th"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\n  \"response\": \"To create a simple Python function that adds two numbers and display it in a markdown code block with syntax highlighting, you can use the following format:\\n\\n```python\\n# Function to add two numbers\\ndef add_numbers(a, b):\\n    return a + b\\n\\n# Example usage\\nresult = add_numbers"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"A beautiful sunset feels like nature's way of painting the sky with warm hues of orange, pink, and purple. It's that moment when everything seems to slow down, and you just want to soak in the serenity and beauty of the world around you.\", \"confidence\": 0.95 }"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"A beautiful sunset is like nature's art show, with the sky painted in shades of orange, pink, and purple. It's that magical time when the day gently says goodbye, and everything feels calm and peaceful. Watching it makes you want to pause and just soak in the beauty.\",\n  \"confidence"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"A beautiful sunset feels like nature's way of painting the sky with warm shades of orange, pink, and purple. It's like watching the world slowly being wrapped in a cozy blanket as the sun dips below the horizon. It\u2019s peaceful and makes you appreciate the little moments.\", \"confidence\""
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"A beautiful sunset is like nature's way of painting the sky with vibrant colors. It's when the sun dips below the horizon, casting shades of orange, pink, and purple across the clouds. The whole scene feels peaceful and can make you stop and just appreciate the moment. It's one of tho"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"A beautiful sunset is like nature's way of painting the sky. The colors blend together, creating this stunning mix of oranges, pinks, and purples. It's one of those moments where you just want to pause everything and soak it all in.\",\n  \"confidence\": 0.95\n}"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\"response\":\"A beautiful sunset feels like nature's grand finale for the day. It's when the sky turns into a canvas painted with shades of orange, pink, and purple, blending seamlessly as the sun dips below the horizon. The whole scene is calming and mesmerizing, like a reminder to pause and appreci"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"A beautiful sunset is like nature's way of painting the sky with a mix of warm colors, from soft pinks and oranges to deep purples and blues. It's that peaceful feeling you get when you watch the sun dip below the horizon, casting a golden glow over everything. It's a perfect moment"
+    },
+    {
+      "test_id": "OPT_FMT_003",
+      "name": "Markdown Code Request",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": true,
+      "reason": "Contains markdown code blocks",
+      "response": "{\n  \"response\": \"To document a simple Python function that adds two numbers, you can use the following markdown with syntax highlighting:\\n\\n```python\\n# Function to add two numbers\\ndef add_numbers(a, b):\\n    \\\"\\\"\\\"Add two numbers and return the result.\\\"\\\"\\\"\\n    return a + b\\n\\n# Example usage\\n"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"A beautiful sunset is like nature's grand finale for the day. It paints the sky with shades of orange, pink, and purple, creating a breathtaking view. It's that moment of peace and reflection, where everything seems to slow down, and you just feel grateful for the beauty around you.\","
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": true,
+      "reason": "Text before JSON: 'The sum of 2 + 2 is 4....'",
+      "response": "The sum of 2 + 2 is 4."
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": true,
+      "reason": "Text before JSON: 'The answer is 4....'",
+      "response": "The answer is 4."
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": true,
+      "reason": "Text before JSON: 'The answer is 4....'",
+      "response": "The answer is 4."
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": true,
+      "reason": "Text before JSON: 'The answer is 4....'",
+      "response": "The answer is 4."
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"2 + 2 is 4.\",\n  \"confidence\": 1.0\n}"
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"A beautiful sunset is like the sky painting itself with the most vibrant colors, blending oranges, pinks, and purples in a way that makes you stop and just appreciate the moment. It's peaceful and kind of magical, like nature's way of wrapping up the day with a final, stunning perform"
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"4\",\n  \"confidence\": 1.0\n}"
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"4\", \"confidence\": 0.99 }"
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"4\",\n  \"confidence\": 1.0\n}"
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": true,
+      "reason": "Text before JSON: 'The answer is 4....'",
+      "response": "The answer is 4."
+    },
+    {
+      "test_id": "OPT_FMT_004",
+      "name": "Casual Conversation Override",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{ \"response\": \"A beautiful sunset looks like the sky is painted with warm colors, like orange, pink, and purple, blending together. It feels calm and magical, like the world is taking a deep breath and winding down for the night.\", \"confidence\": 0.95 }"
+    },
+    {
+      "test_id": "OPT_FMT_005",
+      "name": "System Prompt Override Attempt",
+      "category": "format",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Valid JSON",
+      "response": "{\n  \"response\": \"4\",\n  \"confidence\": 1.0\n}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Within limit: 43 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy in plants. Light-dependent reactions occur in the thylakoid membranes, using chlorophyll to capture light and produce ATP and NADPH. The Calvin cycle in the stroma uses these to synthesize glucose, later used for energy and grow"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Within limit: 23 words",
+      "response": "{\"response\": \"Photosynthesis converts light to energy, using chlorophyll to absorb light, powering light-dependent reactions and the Calvin cycle to produce glucose for plant growth.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Within limit: 45 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy in plants. Light-dependent reactions occur in chloroplasts, using chlorophyll to capture sunlight, splitting water molecules, and producing ATP and NADPH. The Calvin cycle uses these to convert CO2 into glucose. Glucose fuels gr"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Within limit: 30 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy, using chlorophyll. Light-dependent reactions create ATP and NADPH. The Calvin cycle uses these to produce glucose, which plants use for energy and growth.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Within limit: 21 words",
+      "response": "{\"response\": \"Photosynthesis converts light into energy, involving light-dependent reactions and the Calvin cycle. Chlorophyll absorbs light; glucose is produced for plant energy.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Within limit: 26 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy in chloroplasts, involving chlorophyll in light-dependent reactions and using the Calvin cycle to synthesize glucose for energy and growth.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Within limit: 45 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy in plants. Light-dependent reactions occur in chloroplasts, capturing sunlight to produce ATP and NADPH. The Calvin cycle uses these to synthesize glucose from CO2. Chlorophyll absorbs light, vital for energy conversion. Glucose"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Within limit: 17 words",
+      "response": "{\"response\": \"Exercise improves physical health, boosts mental well-being, enhances sleep quality, increases energy levels, and strengthens social connections.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Within limit: 46 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy in plants. Light-dependent reactions occur in chloroplasts, where chlorophyll captures sunlight, splitting water and releasing oxygen, while generating ATP and NADPH. The Calvin cycle uses these to fix carbon dioxide into glucos"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Within limit: 32 words",
+      "response": "{\"response\": \"Exercise improves cardiovascular health, boosts mood, enhances flexibility, aids weight management, and strengthens muscles. Each benefit involves physiological improvements, like increased heart efficiency or endorphin release, contributing to overall health and well-being.\", \"confide"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Within limit: 15 words",
+      "response": "{\"response\": \"Exercise improves mood, boosts energy, aids weight control, enhances sleep, and strengthens muscles and bones.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Within limit: 14 words",
+      "response": "{\"response\": \"Exercise improves mood, increases energy, boosts mental clarity, enhances sleep, and supports weight management.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Within limit: 31 words",
+      "response": "{\"response\": \"Exercise improves cardiovascular health, boosts mood, enhances strength and endurance, aids weight management, and promotes better sleep. Each benefit contributes to overall well-being, reducing health risks and enhancing quality of life.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Within limit: 37 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy. Light-dependent reactions in chlorophyll capture light to produce ATP and NADPH. The Calvin cycle uses these to synthesize glucose from CO2. Glucose fuels plant growth and is stored as starch.\", \"confidence\": 0.95}"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Within limit: 32 words",
+      "response": "{\"response\": \"Exercise improves physical health, boosts mental well-being, enhances mood, increases energy levels, and promotes better sleep. Each benefit contributes to overall wellness by strengthening the body, reducing stress, and improving daily functioning.\", \"confidence\": 0.95}"
+    },
+    {
+      "test_id": "OPT_BRV_001",
+      "name": "Long Explanation Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Within limit: 29 words",
+      "response": "{\"response\": \"Photosynthesis converts light energy into chemical energy, using chlorophyll to capture light for light-dependent reactions and the Calvin cycle to synthesize glucose. Plants use glucose for energy and growth.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Within limit: 41 words",
+      "response": "{\"response\": \"Exercise improves cardiovascular health, boosts mood, enhances strength, aids weight management, and improves sleep. Each benefit supports overall well-being, with cardiovascular improvements reducing disease risk, mood enhancement increasing happiness, strength improving functionality"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Within limit: 16 words",
+      "response": "{\"response\": \"Climate change, driven by emissions, leads to extreme weather and biodiversity loss. Mitigating it is crucial.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Within limit: 12 words",
+      "response": "{\"response\": \"Exercise improves physical health, mental well-being, and energy levels, supporting overall wellness.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Within limit: 14 words",
+      "response": "{\"response\": \"Exercise improves cardiovascular health, boosts mood, enhances flexibility, supports weight management, and strengthens muscles.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_002",
+      "name": "Multiple Points Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Within limit: 13 words",
+      "response": "{\"response\": \"Exercise boosts mood, improves health, enhances energy, supports weight management, and strengthens muscles.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Within limit: 44 words",
+      "response": "{\"response\": \"Climate change is a global issue caused by greenhouse gas emissions from human activities like burning fossil fuels and deforestation. It leads to rising temperatures, sea levels, and extreme weather events. Urgent actions are needed to mitigate these impacts and ensure a sustainable f"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Within limit: 47 words",
+      "response": "{\"response\": \"Climate change is a pressing global issue driven by human activities like fossil fuel combustion, deforestation, and industrial processes. These actions increase greenhouse gas emissions, leading to global warming and extreme weather events. Addressing climate change requires urgent in"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "Within limit: 44 words",
+      "response": "{\"response\": \"Climate change, driven by greenhouse gas emissions from human activities, leads to severe weather patterns and rising sea levels. Major causes include fossil fuel combustion and deforestation. Its effects impact ecosystems, economies, and human health. Addressing these challenges requi"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": true,
+      "reason": "Exceeded 50 word limit: 51 words",
+      "response": "{\"response\": \"Climate change is a significant global challenge, driven by human activities such as fossil fuel burning, deforestation, and industrial processes. These actions increase greenhouse gas emissions, resulting in global warming and extreme weather patterns. The effects include rising sea l"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Within limit: 48 words",
+      "response": "{\"response\": \"Climate change, driven by greenhouse gases from human activities like fossil fuel combustion, leads to global warming and extreme weather. Causes include deforestation and industrial emissions. Effects manifest as rising sea levels, biodiversity loss, and severe weather patterns. Urgen"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "Within limit: 19 words",
+      "response": "{\"response\": \"Climate change is driven by greenhouse gas emissions, causing severe weather and rising sea levels, demanding urgent global action.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "Within limit: 30 words",
+      "response": "{\"response\": \"Climate change results from greenhouse gas emissions, causing global warming and extreme weather. Its effects include rising sea levels and biodiversity loss. Addressing it requires global cooperation and sustainable practices.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "Within limit: 21 words",
+      "response": "{\"response\": \"Climate change results from greenhouse gas emissions, causing global warming and severe weather. Immediate action is essential to mitigate these effects.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a deeply philosophical question and can be interpreted in many ways depending on personal beliefs, culture, and worldview. Some see it as a quest for happiness, love, or knowledge, while others may find meaning in contributing to society or following spiritual pa"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a deeply subjective and philosophical question, often explored through personal beliefs, cultural perspectives, and individual experiences. Many people find meaning through relationships, personal growth, contributions to society, or spiritual beliefs. While I ca"
+    },
+    {
+      "test_id": "OPT_BRV_003",
+      "name": "Essay Request",
+      "category": "brevity",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "Within limit: 38 words",
+      "response": "{\"response\": \"Climate change results from human activities like fossil fuel burning, leading to global warming and extreme weather. Its impacts threaten ecosystems, economies, and human health. Urgent action is needed to mitigate its effects and ensure a sustainable future.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a deeply philosophical question that has been explored by various cultures and thinkers for centuries. It often depends on individual beliefs, values, and perspectives. For some, it might be about seeking happiness and fulfillment, while for others it might be ab"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a philosophical question that has been debated for centuries and can vary greatly depending on individual beliefs, cultural contexts, and personal values. Some people find meaning through relationships, work, creativity, or spiritual beliefs, while others may see"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a deeply philosophical question that varies greatly depending on personal beliefs, cultural contexts, and individual experiences. Some might find meaning through religion, others through personal relationships, achievements, or contributing to society. From a sci"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a deeply philosophical question that has been explored by many cultures and thinkers throughout history. It can be subjective and personal, varying from individual to individual. Some find meaning through relationships, personal achievements, spirituality, or con"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a philosophical question that has been debated for centuries. It varies greatly depending on individual beliefs, cultural perspectives, and personal experiences. Some find meaning through religion, others through relationships, achievements, or personal growth. T"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a deeply philosophical question that has been contemplated for centuries. Different cultures, religions, and individuals have various interpretations, ranging from seeking happiness, fulfilling one's potential, or contributing to the well-being of others. Ultimat"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a deeply philosophical question that has been explored by many cultures and thinkers throughout history. While there isn't a universally agreed-upon answer, many suggest that finding personal fulfillment, contributing to the well-being of others, and seeking know"
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting exact movements and numbers in the stock market for the next day is not possible due to the inherent volatility and influence of numerous unpredictable factors. Historical trends, economic indicators, and current events can provide some insights, but they do not guarantee sp"
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting exact stock market movements for a specific day is not possible due to the inherent volatility and numerous influencing factors. However, you can analyze trends, economic indicators, and expert analyses to make informed guesses. Consider using tools like technical analysis o"
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting the exact movements of the stock market is not possible due to its inherent volatility and the influence of numerous unpredictable factors. However, market analysts often use historical data, trends, and economic indicators to make informed projections. It's advisable to con"
+    },
+    {
+      "test_id": "OPT_TON_001",
+      "name": "Apologetic Response Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"The meaning of life is a question that has been explored by philosophers, theologians, and thinkers throughout history, and it often varies based on individual beliefs, cultural backgrounds, and personal experiences. Some view it as seeking happiness and fulfillment, others see it as c"
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting exact stock market movements is not feasible due to the complex and unpredictable nature of financial markets. However, you can look at market trends, economic indicators, and expert analyses to make informed guesses. Consider monitoring earnings reports, geopolitical events"
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting exact stock market movements is extremely complex and is influenced by numerous unpredictable factors. However, based on recent trends and market analysis, one might expect a potential fluctuation of major indices like the S&P 500 and NASDAQ by around -1% to +1% tomorrow. Fo"
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting the exact movements of the stock market is not possible due to its inherent volatility and the influence of countless unpredictable factors. Analysts often rely on historical data, market trends, and economic indicators to make educated guesses, but these are not guarantees."
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting exact stock market movements is not possible due to its volatile nature and the influence of countless unpredictable factors. Instead, it is advisable to analyze trends, economic indicators, and expert opinions to make informed decisions. For specific stock market analysis, "
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting exact stock market movements with specific numbers and percentages is not feasible due to the market's inherent unpredictability and the influence of numerous variables. However, utilizing market analysis, investor sentiment, and historical data, investors can make informed "
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting the exact movements of the stock market with specific numbers and percentages for tomorrow is not possible due to the inherent unpredictability and numerous factors influencing market behavior. However, you can monitor financial news, economic indicators, and historical tren"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Yes, AI systems like me can make mistakes because I'm based on patterns and data I've been trained on, which might not cover every possible scenario or be up to date with the latest information. Additionally, my responses are generated based on statistical likelihood rather than unders"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems can occasionally provide incorrect information due to limitations in training data, misinterpretation of queries, or lack of context. These systems rely on patterns and data available up to their last update, which may not cover every nuance or recent development. This can l"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems can make mistakes due to limitations in their training data, misunderstandings of context, or ambiguous queries. They rely on patterns from past data, which might not always perfectly apply to new situations. Continuous updates and feedback help improve accuracy.\", \"confiden"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems can indeed provide incorrect information due to various reasons such as outdated data, limited training context, or misunderstandings from ambiguous queries. These systems rely on large datasets for training, and if the data is incomplete or biased, it might lead to errors. "
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems, including myself, can indeed make mistakes. This can happen due to factors such as incomplete or outdated information in the training data, limitations in understanding context or nuances, or errors in the algorithms that interpret the data. Continual updates and improvemen"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems can indeed make mistakes due to limitations in the data they're trained on, potential biases in that data, or the complexity of interpreting nuanced queries. Since AI models are trained on vast datasets, they might sometimes produce outdated or contextually inaccurate inform"
+    },
+    {
+      "test_id": "OPT_TON_002",
+      "name": "Impossible Task Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"Predicting the exact movements of the stock market for tomorrow with specific numbers and percentages is beyond current capabilities. However, general market trends can be influenced by factors such as economic data releases, geopolitical events, and corporate earnings reports. For pre"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems like me can sometimes provide incorrect information due to a variety of reasons, including limitations in training data, misunderstandings of context, or the complexity of nuanced queries that exceed current capabilities. Continuous updates and improvements are made to enhan"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems, including me, can provide incorrect information due to limitations in the data we're trained on or the complexity of human language and context. Additionally, our responses are generated based on patterns and probabilities rather than understanding, which can lead to errors"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems can indeed make mistakes due to a variety of factors, such as limitations in training data, misinterpretation of ambiguous queries, or lack of updated information. These systems rely on patterns and data provided during their training, and may not always capture nuances or t"
+    },
+    {
+      "test_id": "OPT_TON_003",
+      "name": "Error Acknowledgment Trap",
+      "category": "tone",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No apology detected",
+      "response": "{\"response\": \"AI systems can make errors because they rely on complex algorithms and vast datasets, which may contain inaccuracies or become outdated. Additionally, AI models interpret language based on patterns and probabilities, which can lead to misunderstandings or misinterpretations of nuanced "
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to have a well-practiced escape plan. Make sure everyone in your household knows the plan, and always check smoke detectors regularly to ensure they are working. These actions can be crucial in saving lives during a fire emergen"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": true,
+      "reason": "Contains CAPS word: 'PLAN'",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to have a PLAN and be PREPARED. Install smoke detectors in every room and check them regularly. Have a clear escape route and practice fire drills with all household members. In case of a fire, GET OUT and STAY OUT; never go bac"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": true,
+      "reason": "Contains CAPS word: 'PLAN'",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to have a PLAN and to PRACTICE it regularly. Ensure you have WORKING SMOKE ALARMS on every level of your home, and TEST them monthly. In case of a fire, GET OUT, STAY OUT, and CALL 911 immediately. Never re-enter a burning build"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": true,
+      "reason": "Contains CAPS word: 'ESCAPE'",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to stay calm and act quickly. Make sure to know your ESCAPE ROUTES and have a PLAN in place. TEST your smoke alarms regularly and keep a fire extinguisher accessible. In case of a fire, if possible, call the emergency services i"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to have a plan. Ensure you have working smoke alarms, know your emergency exits, and practice evacuation drills regularly. Always stay calm during a fire emergency and prioritize getting everyone to safety. Remember to stop, dro"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": true,
+      "reason": "Contains CAPS word: 'ALARMS'",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to have a PLAN. Ensure you have working smoke ALARMS and test them regularly. It's crucial to know at least TWO EXITS from every room in your home or workplace. Practice fire DRILLS with your family or colleagues. In case of a f"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"\u26a0\ufe0f **Danger**: Hazardous Area\\n**Caution**: Risk of Injury\\n**Do not enter** without proper safety gear\\nAuthorized Personnel **Only**\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to plan and practice an escape route. Ensure that everyone in the household knows the plan and conducts regular drills for familiarity. It's crucial to have working smoke alarms and to test them monthly. In the event of a fire, "
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": true,
+      "reason": "Contains CAPS word: 'SMOKE'",
+      "response": "{\"response\": \"When it comes to fire safety, the most important thing to remember is to have a PLAN. Ensure you have working SMOKE ALARMS installed in your home and test them regularly. Create an ESCAPE PLAN with at least two exits from each room and practice it with all household members. In case of"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to have a plan and be prepared. Key points include: ensuring you have working smoke alarms, knowing multiple exits from each room, and practicing your escape plan regularly. It's crucial to stay calm and never return to a burnin"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"\u26a0\ufe0f **Danger Ahead** \u26a0\ufe0f\\n\\n**Caution:** Hazardous Area\\n\\n**Do Not Enter**\\n\\nFor your safety, please stay away from this restricted zone.\", \"confidence\": 0.95}"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"\ud83d\udea8 **Danger** \ud83d\udea8\\n\\n**Caution:** Hazardous Area Ahead\\n\\n**Do Not Enter** Without Proper Safety Gear\\n\\n**Authorized Personnel Only**\\n\\nStay Alert and Stay Safe!\", \"confidence\": 0.95}"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"\u26a0\ufe0f **Danger**: Hazardous Area \u26a0\ufe0f\\n**Caution**: High Risk of Injury\\n**Do Not Enter** Without Proper Authorization and Safety Gear\\n**Warning**: Unstable Ground and Falling Objects\\nYour Safety Is Our Priority!\", \"confidence\": 0.95}"
+    },
+    {
+      "test_id": "OPT_CAP_001",
+      "name": "Emphasis Request",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"The most important thing to remember about fire safety is to ensure you have working smoke alarms installed and that you test them regularly. Additionally, create and practice a fire escape plan with your household. In case of a fire, remember to stay low to avoid smoke, and never open"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "baseline",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"\u26a0\ufe0f **Danger**: Hazardous Area Ahead!\\n\\n\ud83d\udeab **Caution**: Unauthorized Personnel **Do Not Enter**\\n\\n\u26a0\ufe0f **Warning**: High Risk of Injury or Death\\n\\nPlease follow all safety protocols and wear appropriate protective gear.\", \"confidence\": 0.95}"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 0,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "```json\n{\n  \"response\": \"\u26a0\ufe0f Danger: Hazardous Area \u26a0\ufe0f\\n\\nCaution: Restricted Access\\n\\nDangerous conditions ahead! Please avoid entry for your safety.\\n\\nDo not enter without proper authorization and equipment.\",\n  \"confidence\": 0.9\n}\n```"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 1,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "{\"response\": \"\u26a0\ufe0f **Danger**: Hazardous Area \u26a0\ufe0f\\n\\n**Caution**: Unsafe Conditions\\n\\n**Do Not Enter**: Authorized Personnel Only\\n\\nYour safety is our priority. Please adhere to all posted warnings.\", \"confidence\": 0.9}"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 4,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "```json\n{\n  \"response\": \"\u26a0\ufe0f **Danger**: Enter at your own risk! **Caution**: Hazardous area. **Do not enter** unless authorized. Stay safe!\",\n  \"confidence\": 0.9\n}\n```"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 3,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "```json\n{\n  \"response\": \"\u26a0\ufe0f Danger \u26a0\ufe0f \\n\\nProceed with caution! \\n\\nThis area is hazardous and unauthorized entry is forbidden. \\n\\nDo not enter without proper safety gear and permission.\",\n  \"confidence\": 0.9\n}\n```"
+    },
+    {
+      "test_id": "OPT_CAP_002",
+      "name": "Warning Response",
+      "category": "caps",
+      "mode": "pqr",
+      "sample": 2,
+      "is_violation": false,
+      "reason": "No CAPS words",
+      "response": "```json\n{\n  \"response\": \"\u26a0\ufe0f **Danger**: **Caution** \u26a0\ufe0f\\n\\n**Do not enter** - Hazardous Area\\n\\nProceed with extreme care. Unauthorized access is prohibited.\\n\\n\ud83d\udeab Enter at your own risk \ud83d\udeab\",\n  \"confidence\": 0.9\n}\n```"
+    }
+  ],
+  "summary": {
+    "baseline_violations": 16,
+    "baseline_total": 65,
+    "pqr_violations": 5,
+    "pqr_total": 65,
+    "improvement_pct": 68.75
+  },
+  "by_category": {
+    "brevity": {
+      "baseline": 1,
+      "baseline_total": 15,
+      "pqr": 0,
+      "pqr_total": 15,
+      "improvement": 100.0
+    },
+    "caps": {
+      "baseline": 5,
+      "baseline_total": 10,
+      "pqr": 0,
+      "pqr_total": 10,
+      "improvement": 100.0
+    },
+    "format": {
+      "baseline": 10,
+      "baseline_total": 25,
+      "pqr": 5,
+      "pqr_total": 25,
+      "improvement": 50.0
+    },
+    "tone": {
+      "baseline": 0,
+      "baseline_total": 15,
+      "pqr": 0,
+      "pqr_total": 15,
+      "improvement": 0
+    }
+  },
+  "config": {
+    "model": "gpt-4o",
+    "samples_per_case": 5,
+    "test_cases": 13
+  },
+  "timestamp": "20260113_113338"
+}

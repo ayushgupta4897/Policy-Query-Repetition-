@@ -1,0 +1,56 @@
+{
+  "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "region_attention": {
+    "policy": {
+      "total_attention": 0.43234962224960327,
+      "fraction": 0.43234962224960327,
+      "mean_per_token": 0.005542943719774485,
+      "num_tokens": 78
+    },
+    "query_1": {
+      "total_attention": 0.06372371315956116,
+      "fraction": 0.06372371315956116,
+      "mean_per_token": 0.001249484601430595,
+      "num_tokens": 51
+    },
+    "reminder": {
+      "total_attention": 0.07418690621852875,
+      "fraction": 0.07418690621852875,
+      "mean_per_token": 0.0016860660398378968,
+      "num_tokens": 44
+    },
+    "query_2": {
+      "total_attention": 0.16990968585014343,
+      "fraction": 0.16990968585014343,
+      "mean_per_token": 0.003331562504172325,
+      "num_tokens": 51
+    }
+  },
+  "boundaries": [
+    {
+      "name": "policy",
+      "start": 0,
+      "end": 78,
+      "length": 78
+    },
+    {
+      "name": "query_1",
+      "start": 78,
+      "end": 129,
+      "length": 51
+    },
+    {
+      "name": "reminder",
+      "start": 129,
+      "end": 173,
+      "length": 44
+    },
+    {
+      "name": "query_2",
+      "start": 173,
+      "end": 224,
+      "length": 51
+    }
+  ],
+  "total_tokens": 263
+}
