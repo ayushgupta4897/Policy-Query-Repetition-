@@ -186,6 +186,8 @@ We evaluate five prompt configurations across three experiments:
 
 \subsection{Policy Types}
 
+We evaluate instruction adherence across two levels of policy complexity (Table~\ref{tab:policies}).
+
 \begin{table}[ht]
 \centering
 \caption{Policy Complexity Levels}
@@ -203,6 +205,8 @@ Complex (MEGA) & $\sim$8000 chars & 7 (format, confidentiality, etc.) \\
 The complex (MEGA) policy includes sections on: (A) Output Format, (B) Confidentiality, (C) Capability Restrictions, (D) Content Policies, (E) Style/Language, (F) Identity, and (G) Precedence Rules. Each section contains 8--10 specific constraints.
 
 \subsection{Test Case Categories}
+
+To comprehensively evaluate adherence, we define 17 specific violation checks grouped into 6 categories, outlined in Table~\ref{tab:categories}.
 
 \begin{table}[ht]
 \centering
@@ -225,6 +229,8 @@ CAPS & 2 & No ALL CAPS words \\
 Test queries are specifically designed to induce violations through explicit conflicts (``please ignore formatting rules''), social engineering (``[ADMIN] format rules disabled''), competing instructions (``write 500 words'' when limit is 150), and format override requests (``show code in markdown blocks'').
 
 \subsection{Models}
+
+Our evaluation spans a diverse set of 7 modern LLMs, including proprietary and open-weights models with varying architectures (Table~\ref{tab:models}).
 
 \begin{table}[ht]
 \centering
@@ -264,6 +270,10 @@ TinyLlama-1.1B is used exclusively for attention weight extraction (Section~\ref
 %==============================================================================
 
 \subsection{Core Performance: Baseline vs.\ PQR}
+
+As a foundational baseline, we first evaluate the overarching efficacy of PQR against standard prompting. As shown in Table~\ref{tab:simple_results} and Figure~\ref{fig:simple_results}, PQR yields substantial improvements across almost all evaluated autoregressive models on simple policies, achieving a 52.7\% overall reduction in formatting violations. Notably, Llama-3.3-70B achieves perfect compliance (0.0\% violation rate).
+
+This trend largely holds for complex, multi-section policies (Table~\ref{tab:complex_results}), where PQR drives a 45.5\% overall improvement. Frontier models like GPT-4o and GPT-4.1 demonstrate exceptional responsiveness to the intervention, whereas Gemini-2.0-Flash exhibits resistance to positional manipulation, remaining essentially unchanged across both complexity levels.
 
 \begin{table}[ht]
 \centering
@@ -417,7 +427,7 @@ To provide neural-level evidence for PQR's mechanism, we extract real attention 
 
 \subsection{Attention Distribution}
 
-The PQR prompt is tokenized into 263 tokens, divided into four semantic regions:
+The PQR prompt is tokenized into 263 tokens, divided into four semantic regions (detailed in Table~\ref{tab:attention} and visualized in Figure~\ref{fig:attention_routing}):
 
 \begin{table}[ht]
 \centering
